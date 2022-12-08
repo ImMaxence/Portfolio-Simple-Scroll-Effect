@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main_one,
+.main_two,
+.main_three,
+.main_four,
+.main_five {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.main_one {
+    background-color: #2A3990;
+}
+
+.main_two {
+    background-color: #9C254D;
+}
+
+.main_three {
+    background-color: #D23369;
+}
+
+.main_four {
+    background-color: #F06292;
+}
+
+.main_five {
+    background-color: #2A3990;
+}
+
+.main_container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
